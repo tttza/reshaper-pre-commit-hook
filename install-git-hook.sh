@@ -12,8 +12,8 @@ trap 'echo "\"${last_command}\" command filed with exit code $?."' ERR
 outFile="./resharper-cli.tar.gz"
 gitResharperFolder="./.git/hooks/resharper"
 preCommitFile="./.git/hooks/pre-commit"
-cliUrl="https://download-cf.jetbrains.com/resharper/ReSharperUltimate.2019.3.1/JetBrains.ReSharper.CommandLineTools.Unix.2019.3.1.tar.gz"
-preCommitHookUrl="https://raw.githubusercontent.com/GeeWee/reshaper-pre-commit-hook/master/pre-commit-hook.sh"
+cliUrl="https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.3/JetBrains.ReSharper.CommandLineTools.Unix.2020.1.3.tar.gz"
+preCommitHookUrl="https://raw.githubusercontent.com/tttza/reshaper-pre-commit-hook/master/pre-commit-hook.sh"
 
 
 echo "Fetching Resharper CLI tools"
